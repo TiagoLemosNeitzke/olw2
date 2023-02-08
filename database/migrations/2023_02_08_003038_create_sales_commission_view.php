@@ -41,6 +41,6 @@ return new class extends Migration {
      */
     public function down()
     {
-        DB::statement("DROP MATERIALIZED VIEW");
+        DB::statement("DROP MATERIALIZED VIEW sales_commission_view");
     }
 };
